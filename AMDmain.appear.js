@@ -5,19 +5,10 @@
 // @description  Makes ATC Button Appear on Product Page
 // @author       stuymack / Stuart MacKenzie
 // @match        https://www.amd.com/*/direct-buy/*
-// @downloadURL  https://raw.githubusercontent.com/ibowline/amd-always-on/main/amd.atc.appear.js
-// @updateURL    https://raw.githubusercontent.com/ibowline/amd-always-on/main/amd.atc.appear.js
-// @run-at       document-end
-// @grant        GM_getResourceText
-// @grant        GM_addStyle
-// @grant        GM_getValue
-// @grant        GM_setValue
-// @grant        GM_setClipboard
-// @grant        unsafeWindow
-// @noframes
+// @run-at       document-start
+// @grant        none
 // ==/UserScript==
-/* globals $, __META_LAYER_META_DATA, constants  */
-/* globals generateInterface, generateWindow, designateSettings, designateLogging*/
+
 // Version Changelog
 // 1.0.0 - Initial release
 // 1.0.1 - Added a delay so AMD pages have time to load Drupal script and wait for dynamic products to load
