@@ -5,8 +5,8 @@
 // @description  Makes ATC Button Appear on Product Page
 // @author       stuymack / Stuart MacKenzie
 // @match        https://www.amd.com/*/direct-buy/*
-// @downloadURL  https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
-// @updateURL    https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
+// @downloadURL  https://raw.githubusercontent.com/ibowline/amd-always-on/main/amd.atc.appear.js
+// @updateURL    https://raw.githubusercontent.com/ibowline/amd-always-on/main/amd.atc.appear.js
 // @run-at       document-end
 // @grant        unsafeWindow
 // @noframes
