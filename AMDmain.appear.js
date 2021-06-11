@@ -3,6 +3,8 @@
 // @namespace    stuymack
 // @version      1.0.2
 // @description  Makes ATC Button Appear on Product Page
+// @downloadURL  https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/script_main.user.js
+// @updateURL    https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/script_main.user.js
 // @author       stuymack / Stuart MacKenzie
 // @match        https://www.amd.com/*/direct-buy/*
 // @run-at       document-start
