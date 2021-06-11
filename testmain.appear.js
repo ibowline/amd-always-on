@@ -1,15 +1,24 @@
 // ==UserScript==
-// @name         AMD ATC Button Appear
-// @namespace    stuymack
-// @version      1.0.2
-// @description  Makes ATC Button Appear on Product Page
+// @name         Best Buy - Cart Saved Items Automation
+// @namespace    akito
+// @version      3.3.0
+// @author       akito#9528 / Albert Sun
+// @require      https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/user_interface.js
+// @require      https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/constants.js
+// @require      https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js
+// @resource css https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/styling.css
 // @downloadURL  https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/script_main.user.js
 // @updateURL    https://raw.githubusercontent.com/albert-sun/tamper-scripts/bestbuy-cart_3.3/bestbuy-cart/script_main.user.js
-// @author       stuymack / Stuart MacKenzie
-// @match        https://www.amd.com/*/direct-buy/*
-// @run-at       document-start
-// @grant        none
-// ==/UserScript==
+// @match        https://www.bestbuy.com/cart
+// @antifeature  opt-in anonymous queue metrics
+// @run-at       document-end
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_setClipboard
+// @grant        unsafeWindow
+// @noframes
 
 // Version Changelog
 // 1.0.0 - Initial release
