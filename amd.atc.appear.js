@@ -7,7 +7,7 @@
 // @match        https://www.amd.com/*/direct-buy/*
 // @downloadURL  https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
 // @updateURL    https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
-// @run-at       document-start
+// @run-at       document-end
 // @grant        unsafeWindow
 // @noframes
 // ==/UserScript==
