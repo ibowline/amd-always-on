@@ -8,7 +8,8 @@
 // @downloadURL  https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
 // @updateURL    https://raw.githubusercontent.com/ibowline/amd-always-on/amd.atc.appear.js
 // @run-at       document-start
-// @grant        none
+// @grant        unsafeWindow
+// @noframes
 // ==/UserScript==
 
 // Version Changelog
